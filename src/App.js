@@ -1,18 +1,9 @@
-import { Link } from 'react-router-dom';
+import Nav from './components/Navigation';
 
 function App() {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/details">Details</Link>
-          </li>
-        </ul>
-      </nav>
+      <Nav />
     </>
   );
 }
