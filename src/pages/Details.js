@@ -1,10 +1,12 @@
 import React from 'react';
+import Headers from '../components/Header';
+import SpecDetails from '../components/SpecDetails';
 
 function Details() {
   return (
     <div>
-      <h1>Details Page</h1>
-      <p>Details about something.</p>
+      <Headers title="Content view" back="true" />
+      <SpecDetails />
     </div>
   );
 }

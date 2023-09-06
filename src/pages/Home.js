@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import Dragons from '../components/dragons';
+import { fetchDragonsAsync } from '../redux/dragons/dragonsSlice';
+import Headers from '../components/Header';
 
 function Home() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchDragonsAsync());
+  });
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home page!</p>
+      <Headers title="Years view" back="false" />
+      <Dragons />
     </div>
   );
 }

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Lato;
+  src: url(./assets/fonts/Lato-Regular.ttf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,9 +11,80 @@
 
 /* mobile version */
 body {
-  background: red;
+  background: #fd5294;
+  font-family: Lato, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+.filters {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #ed4c8b;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > .lhead {
+  width: 40px;
+  height: 40px;
+}
+
+header > .thead {
+  height: 40px;
+  padding-top: 15px;
+}
+
+header > .rhead {
+  width: 40px;
+  height: 40px;
+}
+
+header > .thead > h1 {
+  text-align: center;
+  color: white;
+  font-size: 10pt;
+  margin: 0;
+}
+
+.lhead img {
+  margin: 5px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.filters > button {
+  flex: 1 auto;
+  border: 0;
+  height: 30px;
+}
+
+.cards {
+  margin: 5px 0;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.card {
+  width: 49.85%;
+  height: 200px;
+  background-color: #ed4c8b;
+  color: white;
+  padding: 20px;
+}
+
+.card:first-child {
+  width: 100%;
+}
 
 /* desktop version */
 @media (min-width: 600px) {
