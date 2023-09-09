@@ -30,7 +30,7 @@
 
 # 📖 react-capstone <a name="about-project"></a>
 
-**react capstone** is a simple website based on react. This project describes some income data.
+**react capstone** is a simple website based on react. This project describes some financial income data.
 
 ## 🛠 Built With <a name="built-with"> React </a>
 
