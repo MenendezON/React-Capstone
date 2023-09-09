@@ -30,7 +30,7 @@
 
 # 📖 react-capstone <a name="about-project"></a>
 
-**react capstone** is a simple web site based on react. This project describe some income data.
+**react capstone** is a simple website based on react. This project describes some income data.
 
 ## 🛠 Built With <a name="built-with"> React </a>
 
@@ -54,7 +54,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-🚀 Live Demo Link ()
+🚀 Live Demo Link (https://react-capstone-ot6v.onrender.com/)
 
 
 <!-- GETTING STARTED -->
