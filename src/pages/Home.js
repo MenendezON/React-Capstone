@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import Stats from '../components/StatAll';
+import { fetchStatsAsync } from '../redux/stats/statsSlice';
+import Header from '../components/Header';
 
 function Home() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchStatsAsync());
+  });
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home page!</p>
+      <Header title="Years view" back="false" />
+      <Stats />
     </div>
   );
 }

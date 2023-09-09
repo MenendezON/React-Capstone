@@ -2,9 +2,11 @@
 
 <div align="center">
 
-  <h3><b>Space Travelers' Hub</b></h3>
+  <h3><b> React Capstone </b></h3>
 
 </div>
+
+
 
 # 📗 Table of Contents
 
@@ -12,103 +14,118 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    🚀 Live Demo
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
+- [👥 Author](#author)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 Space Travelers' Hub <a name="about-project"></a>
+# 📖 react-capstone <a name="about-project"></a>
 
-**Space Travelers' Hub** is a demo web application that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. It uses real live data from the SpaceX API.
+**react capstone** is a simple website based on react. This project describes some financial income data.
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with"> React </a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="#">React/Redux</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">css</a></li>
+    <li><a href="https://www.w3schools.com/Javascript/">Javascript</a></li>
   </ul>
 </details>
 
 
 ### Key Features <a name="key-features"></a>
 
-- The Rockets and Dragons sections display a list of all available SpaceX rockets/dragons. Users can book each by clicking the reservation button or cancel the previously made booking.
-- The Missions section displays a list of current missions along with their brief description and participation status. There is also a button next to each mission that allows users to join the selected mission or leave the mission the user joined earlier.
+- **Demo of Linters**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+🚀 Live Demo Link (https://react-capstone-ot6v.onrender.com/)
+Video link (https://www.loom.com/share/0f538bbdaf204dac991fcb426e5b0b5c?sid=bd17d185-e4b0-4238-b45e-d7b90a161554)
+
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites
 
 In order to run this project you need:
 
-Git
-Code Editor
-Any HTML5-compliant browser
-NPM package manager
+- Modern updated Web Browser such as Chrome, Safari, Firefox, among others
+- git-syn 
+- code editor
+- Javascript enabled
+- node js
+- npm
 
 ### Setup
 
-Clone this repository to your local folder: https://github.com/RicardoEgas/Space-Travelers.git
+Clone this repository to your desired folder:
 
-
+git clone https://github.com/MenendezON/react-capstone
 ### Install
 
-Install this project with:
-
-git clone https://github.com/RicardoEgas/Space-Travelers.git
-Open directory with your preferred code editor
-Run: npm install
+To install all dependencies, run:
+```
+npm install
+```
 
 ### Usage
 
-To run the project on your local development server, execute the following command:
+To run the project, execute the following command:
 
-npm start
+To run the project, follow these instructions:
+
+- Clone this repo to your local machine.
 
 ### Run tests
 
 To run tests, run the following command:
 
+- Track HTML linter errors run:
+```
+npx hint .
+```
+- Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+- Track JavaScript linter errors run:
+```
+npx eslint .
+
+We use Jest, a popular testing framework, to ensure the correctness of our code. To run the tests, follow these steps:
+
+Open a terminal or command prompt in the project directory.
+
+To execute all the tests, run the following command:
 npm test
 
-### Deployment
+To run specific test files or use additional options, you can use the jest command directly. For example, to run tests in a specific file:
 
-You can deploy this project using:
-
-Deployment instructions to follow
+npx jest path/to/test-file.test.js
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
+<!-- AUTHOR -->
 
-👤 **Ricardo Egas**
-
-- GitHub: [@githubhandle](https://github.com/RicardoEgas)
-- Twitter: [@twitterhandle](https://twitter.com/RjEgas)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ricardo-egas-952125136)
-
-👤 **Joyce Cruz**
-
-- GitHub: [@balatstar](https://github.com/balatstar)
-- Twitter: [@balatstar](https://twitter.com/balatstar)
-- LinkedIn: [Joyce Cruz](https://linkedin.com/in/joyce-ann-cruz-668a41a7)
+## 👥 Author <a name="author"></a>
 
 👤 **Menendez NELSON**
 
@@ -116,35 +133,51 @@ Deployment instructions to follow
 - Twitter: [@username](https://twitter.com/menendezon)
 - LinkedIn: [username](https://linkedin.com/in/menendezon)
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Styling]**
-- [ ] **[Improved UI]**
+- [ ] **Add functionality**
+- [ ] **Add charachter page**
+- [ ] **fetch data from api**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+
+Feel free to check the [issues page](https://github.com/MenendezON/react-capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please feel free to leave us a message on Twitter or Linkedin.
+If you like this project give it a⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Warm kudos to Microverse for guidance and structure during our learning journey.
+- Microverse 
+- Credit to Nelson Sakwa the author of the original design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 

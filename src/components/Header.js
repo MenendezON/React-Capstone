@@ -1,20 +1,19 @@
-import { NavLink } from 'react-router-dom';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import backIcon from '../assets/icon-back.png';
 
-function Header() {
+function Header({ title, back }) {
   return (
     <header>
-      <nav className="navbar">
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="details">Details</NavLink>
-          </li>
-
-        </ul>
-      </nav>
+      <div className="lhead">{(back === 'true') ? <Link to="/"><img src={backIcon} alt="" /></Link> : ''}</div>
+      <div className="thead"><h1>{title}</h1></div>
+      <div className="rhead">&nbsp;</div>
     </header>
   );
 }
+Header.propTypes = {
+  title: PropTypes.string.isRequired,
+  back: PropTypes.bool.isRequired,
+};
 export default Header;
