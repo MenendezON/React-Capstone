@@ -86,14 +86,14 @@ header > .thead > h1 {
   text-align: right;
 }
 
-.card>*{
-  flex:1 auto;
+.card > * {
+  flex: 1 auto;
 }
 
-.card .avatar img{
+.card .avatar img {
   width: 100px;
-  margin-bottom:10px;
-  opacity: 0.5
+  margin-bottom: 10px;
+  opacity: 0.5;
 }
 
 .card-spec {
@@ -121,11 +121,11 @@ legend {
   text-align: left;
 }
 
-.card:first-child .desc{
-  padding-top:15px;
+.card:first-child .desc {
+  padding-top: 15px;
 }
 
-.card:first-child .avatar img{
+.card:first-child .avatar img {
   width: 150px;
 }
 

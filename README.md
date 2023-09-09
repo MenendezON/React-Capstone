@@ -55,6 +55,7 @@
 
 
 🚀 Live Demo Link (https://react-capstone-ot6v.onrender.com/)
+Video link (https://www.loom.com/share/0f538bbdaf204dac991fcb426e5b0b5c?sid=bd17d185-e4b0-4238-b45e-d7b90a161554)
 
 
 <!-- GETTING STARTED -->
@@ -76,7 +77,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/AlyAtalla/react-capstone
+git clone https://github.com/MenendezON/react-capstone
 ### Install
 
 To install all dependencies, run:
