@@ -38,7 +38,7 @@ header > .lhead {
 
 header > .thead {
   height: 40px;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 header > .rhead {
@@ -49,7 +49,7 @@ header > .rhead {
 header > .thead > h1 {
   text-align: center;
   color: white;
-  font-size: 10pt;
+  font-size: 12pt;
   margin: 0;
 }
 
@@ -71,19 +71,58 @@ header > .thead > h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1px;
+  gap: 2px;
 }
 
 .card {
-  width: 49.85%;
-  height: 200px;
-  background-color: #ed4c8b;
-  color: white;
+  width: 49.7%;
+  height: 190px;
+  background-color: #cf4278;
   padding: 20px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url('./assets/deposit.jpg');
+  background-size: cover;
+}
+
+.card-spec {
+  margin: 24px;
+  border-radius: 10px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url('./assets/deposit.jpg');
+  background-size: cover;
+  background-color: #ed4c8b;
+  border: 1px solid silver;
+  padding: 20px;
+}
+
+legend {
+  background-color: white;
+  padding: 4px;
+  border-radius: 5px;
 }
 
 .card:first-child {
   width: 100%;
+}
+
+ul li {
+  background-color: #ed4c8b;
+  border-top: 1px solid silver;
+  padding: 10px 5px;
+  margin: 24px;
+  list-style: none;
+}
+
+li p {
+  color: rgb(211, 207, 207);
+  font-size: 11pt;
+}
+
+li h3 {
+  color: white;
 }
 
 /* desktop version */
