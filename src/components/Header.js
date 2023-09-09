@@ -17,3 +17,5 @@ Header.propTypes = {
   back: PropTypes.bool.isRequired,
 };
 export default Header;
+
+console.log(Header('test 1', true));
