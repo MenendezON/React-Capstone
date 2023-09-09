@@ -1,8 +1,8 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
-import dragonsReducer from './dragons/dragonsSlice';
+import statsReducer from './stats/statsSlice';
 
 const rootReducer = combineReducers({
-  dragons: dragonsReducer,
+  stats: statsReducer,
 });
 
 const store = configureStore({
