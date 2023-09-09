@@ -4,15 +4,15 @@ import {
   Link,
 } from 'react-router-dom';
 
-const Dragons = () => {
-  const dragons = useSelector((state) => state.dragons.dragons);
+const Stats = () => {
+  const stats = useSelector((state) => state.stats.stats);
   const [filter, setFilter] = useState('All');
 
   const tab = [{ id: 0, name: 'All' }];
-  dragons.map((dragon) => (
+  stats.map((stat) => (
     tab.push({
-      id: dragon.id,
-      name: dragon.calendarYear,
+      id: stat.id,
+      name: stat.calendarYear,
     })
   ));
 
@@ -36,28 +36,29 @@ const Dragons = () => {
       </ul>
       <section className="cards">
 
-        {dragons.length > 0 && filter === 'All' && dragons.map((dragon) => (
-          <Link to={`/details/${dragon.calendarYear}`} key={dragon.id} className="card">
+        {stats.length > 0 && filter === 'All' && stats.map((stat) => (
+          <Link to={`/details/${stat.calendarYear}`} key={stat.id} className="card">
             <div>
-              <p>{dragon.calendarYear}</p>
-              <h3>{dragon.symbol}</h3>
+              <p>{stat.calendarYear}</p>
+              <h3>{stat.symbol}</h3>
               <h2>
                 $
-                { shortRevenue(dragon.revenue)}
+                { shortRevenue(stat.revenue)}
                 {' '}
                 bills
               </h2>
+              <p>{stat.date}</p>
             </div>
           </Link>
         ))}
-        {dragons.length > 0 && filter !== 'All' && dragons.filter((dragon) => dragon.calendarYear === filter).map((dragon) => (
-          <Link to={`/details/${dragon.calendarYear}`} key={dragon.id} className="card">
+        {stats.length > 0 && filter !== 'All' && stats.filter((stat) => stat.calendarYear === filter).map((stat) => (
+          <Link to={`/details/${stat.calendarYear}`} key={stat.id} className="card">
             <div>
-              <p>{dragon.calendarYear}</p>
-              <h3>{dragon.symbol}</h3>
+              <p>{stat.calendarYear}</p>
+              <h3>{stat.symbol}</h3>
               <h2>
                 $
-                { shortRevenue(dragon.revenue)}
+                { shortRevenue(stat.revenue)}
                 {' '}
                 bills
               </h2>
@@ -69,4 +70,4 @@ const Dragons = () => {
   );
 };
 
-export default Dragons;
+export default Stats;
