@@ -78,11 +78,22 @@ header > .thead > h1 {
   width: 49.7%;
   height: 190px;
   background-color: #cf4278;
-  padding: 20px;
+  padding: 15px;
   background-repeat: no-repeat;
   background-position: top center;
   background-image: url('./assets/deposit.jpg');
   background-size: cover;
+  text-align: right;
+}
+
+.card>*{
+  flex:1 auto;
+}
+
+.card .avatar img{
+  width: 100px;
+  margin-bottom:10px;
+  opacity: 0.5
 }
 
 .card-spec {
@@ -106,6 +117,16 @@ legend {
 
 .card:first-child {
   width: 100%;
+  display: flex;
+  text-align: left;
+}
+
+.card:first-child .desc{
+  padding-top:15px;
+}
+
+.card:first-child .avatar img{
+  width: 150px;
 }
 
 ul li {
